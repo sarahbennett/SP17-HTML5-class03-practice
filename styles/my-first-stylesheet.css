@@ -1,0 +1,41 @@
+/* 16 px == 1rem */
+  html { font-size: 16px; }
+
+  img {
+    width: 25%
+  }
+  .amendment-title {
+    color: green;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .amendment-title:hover {
+    color: rgba(92, 213, 235, 0.4);
+  }
+
+  .amendment-title::first-letter {
+    font-size: 5rem;
+  }
+
+  .amendment-body {
+    text-align: center;
+  }
+
+  #bill-of-rights {
+    font-style: italic;
+  }
+
+  .document-history p {
+    background-color: yellow;
+    width: 50%;
+  }
+  /*nested selector -- selects <p> inside .document-history*/
+
+  .document-history h4 {
+    background-color: papayawhip;
+  }
+
+  .highlight {
+    background-color: salmon;
+  }
